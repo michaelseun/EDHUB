@@ -1,0 +1,268 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!---box-icons-link--->
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/boxicons@latest/css/boxicons.min.css"
+    />
+
+    <!---remix-icons-link--->
+    <link
+      href="https://cdn.jsdelivr.net/npm/remixicon@3.6.0/fonts/remixicon.css"
+      rel="stylesheet"
+    />
+    <!-- google-fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Syncopate:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+    <!-- css link -->
+    <link rel="stylesheet" href="assets/css/style.css" />
+    <title>Home</title>
+  </head>
+  <body>
+    <!-- header begins -->
+
+    <header class="header">
+      <section class="flex">
+        <a href="home.html" class="logo">ED.HUB</a>
+
+        <form action="" method="post" class="search-form">
+          <input
+            type="text"
+            name="seach-box"
+            placeholder="search courses..."
+            required
+            maxlength="100"
+          />
+
+          <button
+            type="submit"
+            class="fas fa-search"
+            name="search_box"
+          ></button>
+        </form>
+
+        <div class="icons">
+          <div id="menu-btn" class="fas fa-bars"></div>
+          <div id="search-btn" class="fas fa-search"></div>
+          <div id="user-btn" class="fas fa-user"></div>
+          <div id="toggle-btn" class="fas fa-sun"></div>
+        </div>
+
+        <div class="profile">
+          <img src="assets/img/profile.png" alt="" srcset="" />
+          <h3>Mike</h3>
+          <span>Student</span>
+          <a href="profile.html" class="btn">View profile</a>
+          <div class="flex-btn">
+            <a href="login.html" class="option-btn">Login</a>
+            <a href="register.html" class="option-btn">register</a>
+          </div>
+        </div>
+      </section>
+    </header>
+
+    <!-- header ends -->
+
+    <!-- sidebar starts -->
+
+    <div class="side-bar">
+      <div class="close-side-bar">
+        <i class="fas fa-times"></i>
+      </div>
+
+      <div class="profile">
+        <img src="assets/img/profile.png" alt="" srcset="" />
+        <h3>Mike</h3>
+        <span>Student</span>
+        <a href="profile.html" class="btn">View profile</a>
+      </div>
+
+      <nav class="navbar">
+        <a href="home.html"> <i class="fas fa-home"></i> <span>Dashboard</span> </a>
+
+        <a href="courses.html">
+          <i class="fas fa-graduation-cap"></i> <span>Courses</span>
+        </a> 
+        <a href="about.html">
+          <i class="fas fa-question"></i> <span>about us</span>
+        </a>
+        
+        <!-- <a href="teachers.html">
+          <i class="fas fa-chalkboard-user"></i> <span>teachers</span>
+        </a> -->
+        <a href="courses.html">
+          <i class="fas fa-graduation-cap"></i> <span>contact us</span>
+        </a>
+      </nav>
+    </div>
+
+    <!-- sidebar ends -->
+
+    <!-- quick selection starts here -->
+
+    <section class="quick-select">
+      <h1 class="heading">quick options</h1>
+      <div class="box-container">
+        <div class="box">
+          <h3 class="title">Likes and Comments</h3>
+          <p>total comments <span>16</span></p>
+          <a href="" class="inline-btn"> view comments</a>
+          <p>total Likes <span>20</span></p>
+          <a href="" class="inline-btn"> view Likes</a>
+          <p>saved playlists <span>4</span></p>
+          <a href="" class="inline-btn"> view playlists</a>
+          <p></p>
+        </div>
+    
+        <div class="box">
+          <h3 class="title">Top Categories</h3>
+          <div class="flex">
+            <a href="#"><i class="fas fa-code"></i><span>development</span></a>
+            <a href="#"><i class="fas fa-chart-simple"></i><span>business</span></a>
+            <a href="#"><i class="fas fa-pen"></i><span>design</span></a>
+            <a href="#"><i class="fas fa-chart-line"></i><span>marketing</span></a>
+            <a href="#"><i class="fas fa-music"></i><span>music</span></a>
+            <a href="#"><i class="fas fa-camera"></i><span>photography</span></a>
+            <a href="#"><i class="fas fa-cog"></i><span>software</span></a>
+            <a href="#"><i class="fas fa-vital"></i><span>science</span></a>
+          </div>
+        </div>
+    
+    
+        <div class="box">
+          <h3 class="title">Popular Topics</h3>
+          <div class="flex">
+            <a href="#"><i class="fab fa-html5"></i><span>HTML5</span></a>
+            <a href="#"><i class="fab fa-css3"></i><span>CSS</span></a>
+            <a href="#"><i class="fab fa-js"></i><span>Javascript</span></a>
+            <a href="#"><i class="fab fa-react"></i><span>React</span></a>
+            <a href="#"><i class="fab fa-php"></i><span>PHP</span></a>
+            <a href="#"><i class="fab fa-bootstrap"></i><span>fa-bootstrap</span></a>
+          </div>
+        </div>
+    
+        <div class="box tutor">
+          <h3 class="title">Quote of the day</h3>
+          <p>
+            Learn from yesterday, live for today, hope for tomorrow. ...
+          </p>
+          <a href="register.html" class="inline-btn"> Get started</a>
+          <p></p>
+        </div>
+    
+      </div>
+
+    </section>
+    <!-- quick selection ends here -->
+   
+
+   <!-- course section starts -->
+   <section class="courses">
+     
+     <h2 class="heading">Courses</h2>
+     
+     <div class="box-container">
+      <div class="box">
+        <div class="tutor">
+          <img src="assets/img/profile.png" alt="">
+          <div>
+            <h3>john nell</h3>
+            <span>21-07-2024</span> 
+          </div>
+        </div>
+        <img src="assets/img/html5.png" class="thumb" alt="">
+        <h3 class="title"> complete HTML tutorial</h3>
+        <a href="playlist.html" class="inline-btn"> View playlist</a>
+      </div>
+
+      <div class="box">
+        <div class="tutor">
+          <img src="assets/img/profile.png" alt="">
+          <div>
+            <h3>claire beauchamp</h3>
+            <span>21-07-2024</span> 
+          </div>
+        </div>
+        <img src="assets/img/css3.png" class="thumb" alt="">
+        <h3 class="title">  complete CSS tutorial</h3>
+        <a href="playlist.html" class="inline-btn"> View playlist</a>
+      </div>
+
+      <div class="box">
+        <div class="tutor">
+          <img src="assets/img/profile.png" alt="">
+          <div>
+            <h3>eliene</h3>
+            <span>21-17-2021</span> 
+          </div>
+        </div>
+        <img src="assets/img/js.png" class="thumb" alt="">
+        <h3 class="title"> complete JS tutorial</h3>
+        <a href="playlist.html" class="inline-btn"> View playlist</a>
+      </div>
+      <div class="box">
+        <div class="tutor">
+          <img src="assets/img/profile.png" alt="">
+          <div>
+            <h3>james</h3>
+            <span>21-17-2021</span> 
+          </div>
+        </div>
+        <img src="assets/img/bootstrap logo.png" class="thumb" alt="">
+        <h3 class="title"> complete bootstrap tutorial</h3>
+        <a href="playlist.html" class="inline-btn"> View playlist</a>
+      </div>
+
+      <div class="box">
+        <div class="tutor">
+          <img src="assets/img/profile.png" alt="">
+          <div>
+            <h3>scott lain</h3>
+            <span>21-17-2021</span> 
+          </div>
+        </div>
+        <img src="assets/img/jquery.png" class="thumb" alt="">
+        <h3 class="title"> complete Jquery tutorial</h3>
+        <a href="playlist.html" class="inline-btn"> View playlist</a>
+      </div>
+      <div  class="box">
+        <div class="tutor">
+          <img src="assets/img/profile.png" alt="">
+          <div>
+            <h3>samuel frank</h3>
+            <span>21-17-2021</span> 
+          </div>
+        </div>
+        <img src="assets/img/sass.png" class="thumb" alt="">
+        <h3 class="title"> complete SASS tutorial</h3>
+        <a href="playlist.html" class="inline-btn"> View playlist</a>
+      </div>
+     </div>
+
+     <div class="more-btn">
+      <a href="courses.html" class="inline-option-btn">view more</a>
+     </div>
+   </section>
+   <!-- courrse section endss -->
+
+
+
+    <!-- footer section starts -->
+
+    <footer class="footer">
+      &copy; copyright @ 2024 by <span>mike devx</span> | all rights reserved!
+    </footer>
+
+    <!-- footer section ends --> 
+
+    <!-- js link -->
+    <script src="assets/js/script.js"></script>
+  </body>
+</html>
